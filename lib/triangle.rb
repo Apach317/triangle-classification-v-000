@@ -2,10 +2,7 @@ class Triangle
   attr_accessor :sides, :equilateral, :isosceles, :scalene
 
   def initialization(side_1, side_2, side_3)
-    @sides = []
-    @sides << side_1
-    @sides << side_2
-    @sides << side_3
+    @sides = [side_1, side_2, side_3]
   end
 
   def kind
