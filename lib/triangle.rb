@@ -1,11 +1,11 @@
 class Triangle
   attr_accessor :sides, :equilateral, :isosceles, :scalene
 
-  def initialization(S1, S2, S3)
+  def initialization(side_1, side_2, side_3)
     @sides = []
-    @sides << S1
-    @sides << S2
-    @sides << S3
+    @sides << side_1
+    @sides << side_2
+    @sides << side_3
   end
 
   def kind
